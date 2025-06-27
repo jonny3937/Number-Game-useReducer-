@@ -1,7 +1,7 @@
 import { useReducer } from "react";
 import "./App.css";
 
-function numberGameReducer(state, action) {
+function numberGameReducer(state: any, action: any) {
   if (action.type === "set-guess") {
     return { ...state, guess: action.payload };
   }
