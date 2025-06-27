@@ -80,7 +80,7 @@ function NumberGuessingGame() {
           onChange={(e) => dispatch({ type: "set-guess", payload: e.target.value })}
           disabled={isGuessDisabled}
           className="guess-input"
-          placeholder="Enter your guess (1-100)"
+          placeholder="00"required
         />
 
         <div className="button-group">
